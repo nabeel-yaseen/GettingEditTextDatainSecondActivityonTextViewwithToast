@@ -18,6 +18,8 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent = getIntent();
         textView.setText(intent.getStringExtra("data"));
 
+//      String msg = intent.getStringExtra("data");
+
         Toast.makeText(getApplicationContext(), "Welcome to Second Activity", Toast.LENGTH_SHORT).show();
     }
 }
